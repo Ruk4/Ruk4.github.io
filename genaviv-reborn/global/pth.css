@@ -1,0 +1,126 @@
+div#logo{width:66px;height:66px;margin:0 auto;background-size:66px 66px}div#logo a{display:block;width:66px;height:66px;margin:0 auto}#header #logo{margin-top:10px;margin-bottom:10px}.autocomplete-suggestion{padding:5px}#header{background-image:url(../img/global.jpg);}.hidden{position:absolute;left:-10000px;}div#footer>p:first-child:after{content:" | GenavivReborn (by Sarek)"}
+
+#searchbar_artists {
+  top: 9px;
+  position: relative;
+}
+
+#radiobar {
+  background: #000;
+  padding: 10px;
+}
+
+#submenu {
+  background: rgba(0,0,0,0.5);
+  padding: 15px;
+}
+
+#submenu li,
+#donation_wrap li {
+  margin: 0 10px;
+}
+
+#donation_wrap, #userinfo {
+  padding: 5px;
+}
+
+#welcometext {
+  display: none;
+}
+
+#welcomeusername {
+  padding: 0 10px;
+  top: 2px;
+  position: relative;
+}
+
+#searchbars {
+  padding-bottom: 9px;
+}
+
+#logo {
+  background: url(https://www.deepbassnine.com/static/styles/goatpower/images/logo.png) no-repeat !important;
+  margin-bottom: 0 !important;
+}
+
+#logo a {
+  width: 126px !important;
+  height: 60px !important;
+}
+
+#css_gallery {
+  display: none;
+}
+
+.thin {
+  position: relative;
+}
+
+.index_sidebar,
+.index_sidebar2 {
+  width: 25%;
+  float: right;
+  clear: right;
+  padding: 0 0 0 5px;
+}
+
+.index_sidebar2 {
+  margin-top: 0 !important;
+}
+
+#latest {
+  overflow: hidden;
+  padding-right: 0;
+  position: relative;
+}
+#scroller_prev, #scroller_next {
+  background-color: black;
+  opacity: 0.8;
+  position: absolute;
+  top: 42px;
+  z-index: 300;
+  height: 140px;
+  width: 20px;
+  cursor: pointer;
+  display: none;
+}
+
+#scroller_prev {
+  left: 10px;
+}
+#scroller_next {
+  right: 0px;
+}
+div#_LastTorrents {
+  overflow: hidden;
+  width: 100%;
+}
+.cover {
+  width: 125px;
+  height: 125px;
+  float: left;
+  margin: 2px 5px 2px 0;
+  border: 2px solid white;
+  background-size: 125px;
+}
+.cover_text {
+  width: 121px;
+  height: 60px;
+  margin-top: 61px;
+  background: black;
+  text-align: center;
+  opacity: 0.8;
+  padding: 2px;
+  line-height: 15px;
+  overflow: hidden;
+  vertical-align: middle;
+  font-size: 11px;
+}
+.index_main_column {
+  width: 75%;
+}
+
+#disclaimer_container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
