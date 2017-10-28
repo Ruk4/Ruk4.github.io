@@ -1,18 +1,18 @@
 div#logo{width:66px;height:66px;margin:0 auto;background-size:66px 66px}div#logo a{display:block;width:66px;height:66px;margin:0 auto}#header #logo{margin-top:10px;margin-bottom:10px}.autocomplete-suggestion{padding:5px}#header{background-image:url(../img/global.jpg);}.hidden{position:absolute;left:-10000px;}div#footer>p:first-child:after{content:" | GenavivReborn (by Sarek)"}
 
-
 #searchbars input {
   margin: 0 3px !important;
 }
 
 #radiobar {
-  background: #000;
+  background: #191919;
   padding: 10px;
 }
 
 #submenu {
   background: rgba(0,0,0,0.5);
   padding: 10px;
+  margin-top: 2px;
 }
 
 #submenu li {
@@ -201,4 +201,18 @@ div[style*="630px"] {
 
 .thin {
   margin-top: 20px;
+}
+
+.alertbar > * > * {
+  vertical-align: middle;
+}
+
+.alertbar span {
+  padding-right: 3px;
+}
+
+.alertbar {
+  background: rgba(0,0,0,0.5) !important;
+  padding-bottom: 5px;
+  padding-top: 0;
 }
