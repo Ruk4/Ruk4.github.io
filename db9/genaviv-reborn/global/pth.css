@@ -190,3 +190,7 @@ div#_LastTorrents {
 #latest table:last-child {
   margin-top: 0 !important;
 }
+
+.forum_post .colhead_dark span {
+  font-size: 12px !important;
+}
