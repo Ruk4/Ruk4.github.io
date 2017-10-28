@@ -1,9 +1,5 @@
 div#logo{width:66px;height:66px;margin:0 auto;background-size:66px 66px}div#logo a{display:block;width:66px;height:66px;margin:0 auto}#header #logo{margin-top:10px;margin-bottom:10px}.autocomplete-suggestion{padding:5px}#header{background-image:url(../img/global.jpg);}.hidden{position:absolute;left:-10000px;}div#footer>p:first-child:after{content:" | GenavivReborn (by Sarek)"}
 
-#searchbar_artists {
-  top: 9px;
-  position: relative;
-}
 
 #searchbars input {
   margin: 0 3px !important;
@@ -16,16 +12,25 @@ div#logo{width:66px;height:66px;margin:0 auto;background-size:66px 66px}div#logo
 
 #submenu {
   background: rgba(0,0,0,0.5);
-  padding: 15px;
+  padding: 10px;
 }
 
-#submenu li,
-#donation_wrap li {
+#submenu li {
   margin: 0 10px;
 }
 
 #donation_wrap, #userinfo {
   padding: 5px;
+  display: inline-block;
+}
+
+#donation_wrap {
+  position: relative;
+  top: 2px;
+}
+
+#donation_message {
+  display: none !important;
 }
 
 #welcometext {
@@ -33,18 +38,14 @@ div#logo{width:66px;height:66px;margin:0 auto;background-size:66px 66px}div#logo
 }
 
 #welcomeusername {
-  padding: 0 10px;
+  padding: 0 5px;
   top: 2px;
   position: relative;
 }
 
-#searchbars {
-  padding-bottom: 9px;
-}
-
 #logo {
   background: url(../img/logo.png) no-repeat !important;
-  margin-bottom: 0 !important;
+  margin-bottom: -10px !important;
 }
 
 #logo a {
@@ -142,4 +143,35 @@ div#_LastTorrents {
 }
 #buttonhint {
   display: none !important;
+}
+
+#searchbar_artists {
+  position: relative;
+}
+
+#artistcomplete {
+  position: absolute;
+  top: 35px;
+  left: 3px;
+  width: 146px;
+  z-index: 99999;
+  background: rgba(0,0,0,0.7) !important;
+}
+
+#artistcomplete li {
+  display: block;
+  cursor: pointer;
+  padding: 5px;
+}
+
+#artistcomplete li.highlight {
+  background: rgba(255,255,255,0.1);
+}
+
+#stats_ratio {
+  padding-right: 0 !important;
+}
+
+#stats_required {
+  padding-left: 0 !important;
 }
