@@ -5,6 +5,10 @@ div#logo{width:66px;height:66px;margin:0 auto;background-size:66px 66px}div#logo
   position: relative;
 }
 
+#searchbars input {
+  margin: 0 3px !important;
+}
+
 #radiobar {
   background: #000;
   padding: 10px;
@@ -39,7 +43,7 @@ div#logo{width:66px;height:66px;margin:0 auto;background-size:66px 66px}div#logo
 }
 
 #logo {
-  background: url(https://www.deepbassnine.com/static/styles/goatpower/images/logo.png) no-repeat !important;
+  background: url(../img/logo.png) no-repeat !important;
   margin-bottom: 0 !important;
 }
 
@@ -123,4 +127,16 @@ div#_LastTorrents {
 #disclaimer_container {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+#header * {
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+.sticky:after {
+  content: "📌 ";
+}
+
+.thin table:last-child {
+  margin-top: 10px;
 }
