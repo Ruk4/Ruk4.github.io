@@ -82,7 +82,7 @@ div#logo{width:66px;height:66px;margin:0 auto;background-size:66px 66px}div#logo
   background-color: black;
   opacity: 0.8;
   position: absolute;
-  top: 53px;
+  top: 38px;
   z-index: 300;
   height: 140px;
   width: 20px;
@@ -91,7 +91,7 @@ div#logo{width:66px;height:66px;margin:0 auto;background-size:66px 66px}div#logo
 }
 
 #scroller_prev {
-  left: 10px;
+  left: 0px;
 }
 #scroller_next {
   right: 0px;
@@ -174,4 +174,19 @@ div#_LastTorrents {
 
 #stats_required {
   padding-left: 0 !important;
+}
+
+.index_main_column .head,
+#latest .head {
+  margin: 0 !important;
+  margin-bottom: -5px;
+}
+
+.index_main_column > .box,
+#latest {
+  padding: 0 !important;
+}
+
+#latest table:last-child {
+  margin-top: 0 !important;
 }
