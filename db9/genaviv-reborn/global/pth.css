@@ -2,6 +2,8 @@ div#logo{width:66px;height:66px;margin:0 auto;background-size:66px 66px}div#logo
 
 #searchbars input {
   margin: 0 3px !important;
+  font-size: 12px;
+  text-shadow: none;
 }
 
 #radiobar {
@@ -16,7 +18,7 @@ div#logo{width:66px;height:66px;margin:0 auto;background-size:66px 66px}div#logo
 }
 
 #submenu li {
-  margin: 0 10px;
+  margin: 0 15px;
 }
 
 #donation_wrap, #userinfo {
@@ -197,10 +199,6 @@ div#_LastTorrents {
 
 div[style*="630px"] {
   width: auto !important;
-}
-
-.thin {
-  margin-top: 20px;
 }
 
 .alertbar > * > * {
