@@ -198,3 +198,7 @@ div#_LastTorrents {
 div[style*="630px"] {
   width: auto !important;
 }
+
+.thin {
+  margin-top: 20px;
+}
