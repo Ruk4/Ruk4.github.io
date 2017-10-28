@@ -194,3 +194,7 @@ div#_LastTorrents {
 .forum_post .colhead_dark span {
   font-size: 12px !important;
 }
+
+div[style*="630px"] {
+  width: auto !important;
+}
