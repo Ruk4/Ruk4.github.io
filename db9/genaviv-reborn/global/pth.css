@@ -1,6 +1,26 @@
 @import "../../db9compat.css";
 
-div#logo{width:66px;height:66px;margin:0 auto;background-size:66px 66px}div#logo a{display:block;width:66px;height:66px;margin:0 auto}#header #logo{margin-top:10px;margin-bottom:10px}.autocomplete-suggestion{padding:5px}#header{background-image:url(../img/global.jpg);}.hidden{position:absolute;left:-10000px;}div#footer>p:first-child:after{content:" | GenavivReborn (by Sarek)"}
+#header #logo {
+  margin-top:20px;
+  margin-bottom:10px;
+}
+
+.autocomplete-suggestion {
+  padding:5px;
+}
+
+#header {
+  background-image:url(../img/global.jpg);
+}
+
+.hidden {
+  position:absolute;
+  left:-10000px;
+}
+
+div#footer>p:first-child:after {
+  content:" | GenavivReborn (by Sarek)";
+}
 
 #searchbars input {
   margin: 0 3px !important;
@@ -42,12 +62,13 @@ div#logo{width:66px;height:66px;margin:0 auto;background-size:66px 66px}div#logo
 
 #logo {
   background: url(../img/logo.png) no-repeat !important;
-  margin-bottom: -10px !important;
+  width: 255px !important;
+  height: 39px !important;
 }
 
 #logo a {
-  width: 126px !important;
-  height: 60px !important;
+  width: 100% !important;
+  height: 100% !important;
 }
 
 .index_main_column .head,
