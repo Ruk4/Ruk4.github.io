@@ -26,8 +26,7 @@ blockquote {
   background-color: #38363d;
 }
 
-::selection,
-::-moz-selection {
+::selection {
   background-color: rgba(217,130,111,.6);
 }
 
