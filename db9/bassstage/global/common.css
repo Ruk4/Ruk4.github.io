@@ -1174,6 +1174,7 @@ ul.collage_images li a>span {
 
 #alerts {
   position: absolute;
-  width: 100%;
   top: 37px;
+  right: 300px;
+  left: 300px;
 }
