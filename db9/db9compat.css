@@ -216,3 +216,13 @@ div#_LastTorrents {
   margin: 0;
   padding: 0 !important;
 }
+
+.bbcodes {
+  width: 83%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.bbcodes input {
+  margin: 3px;
+}
