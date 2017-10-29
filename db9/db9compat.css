@@ -164,9 +164,11 @@ div#_LastTorrents {
 
 #stats_ratio {
   padding-right: 0 !important;
+  margin-right: 0 !important;
 }
 
 #stats_required {
+  margin-left: 0 !important;
   padding-left: 0 !important;
 }
 

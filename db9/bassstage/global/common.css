@@ -114,10 +114,6 @@ blockquote {
   color: #fff;
 }
 
-::-moz-selection {
-  color: #fff;
-}
-
 table {
   margin: 8px 0;
   width: 100%;
@@ -929,7 +925,7 @@ ul.collage_images li a>span {
 
 .alertbar {
   margin-top: 8px;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .poll li {
@@ -1134,6 +1130,9 @@ ul.collage_images li a>span {
 #radiobar {
   text-align: center;
   margin: 5px;
+  position: absolute;
+  width: 100%;
+  top: 0;
 }
 
 #donation_wrap li {
@@ -1174,7 +1173,15 @@ ul.collage_images li a>span {
 
 #alerts {
   position: absolute;
-  top: 37px;
+  top: 27px;
   right: 300px;
   left: 300px;
+}
+
+#header {
+  margin-bottom: 8px;
+}
+
+.index_sidebar, .index_sidebar2 {
+  padding: 0 0 0 7px;
 }
