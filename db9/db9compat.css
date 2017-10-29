@@ -187,3 +187,32 @@ div#_LastTorrents {
 .index_sidebar2 > div:nth-child(1) {
   margin-top: 0;
 }
+
+#thanksbutton {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.group_torrent td > span:before {
+  content: '[ ';
+}
+
+.group_torrent td > span:after {
+  content: ' ]';
+}
+
+#recommendations {
+  padding: 5px 0;
+}
+
+.index_sidebar > .box > div:nth-child(2),
+.index_sidebar2 > .box > div:nth-child(2) {
+  padding: 10px;
+}
+
+.index_sidebar .stats,
+.index_sidebar2 .stats {
+  margin: 0;
+  padding: 0 !important;
+}
