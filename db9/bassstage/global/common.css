@@ -1171,3 +1171,9 @@ ul.collage_images li a>span {
 #artistcomplete li {
   margin-right: 0 !important;
 }
+
+#alerts {
+  position: absolute;
+  width: 100%;
+  top: 37px;
+}

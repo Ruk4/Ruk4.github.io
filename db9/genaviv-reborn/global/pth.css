@@ -80,3 +80,7 @@ div#logo{width:66px;height:66px;margin:0 auto;background-size:66px 66px}div#logo
 #header * {
   text-shadow: 1px 1px 1px rgb(0, 0, 0);
 }
+
+.alertbar {
+  background: rgba(0,0,0,0.5) !important;
+}
