@@ -1,0 +1,189 @@
+div[style*="630px"] {
+  width: auto !important;
+}
+
+.alertbar > * > * {
+  vertical-align: middle;
+}
+
+.alertbar span {
+  padding-right: 3px;
+}
+
+.alertbar {
+  background: rgba(0,0,0,0.5) !important;
+  padding-bottom: 5px;
+  padding-top: 0;
+}
+
+a#download:after {
+  content: "DL";
+}
+
+a#token:after {
+  content: "FL";
+}
+
+a#report:after {
+  content: "RP";
+}
+
+a#permalink:after {
+  content: "PL";
+}
+
+a#editor:after {
+  content: "ED";
+}
+
+a#remove:after {
+  content: "RM";
+}
+
+a#download:after,
+a#token:after,
+a#report:after,
+a#permalink:after,
+a#editor:after,
+a#remove:after {
+  padding: 0 5px;
+}
+
+.thin {
+  position: relative;
+}
+
+.index_sidebar,
+.index_sidebar2 {
+  width: 25%;
+  float: right;
+  clear: right;
+  padding: 0 0 0 5px;
+}
+
+.index_sidebar2 {
+  margin-top: 0 !important;
+}
+
+#latest {
+  overflow: hidden;
+  padding-right: 0;
+  position: relative;
+}
+
+#latest > div:nth-child(2) {
+  position: relative;
+}
+
+#scroller_prev, #scroller_next {
+  background-color: black;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  z-index: 300;
+  width: 20px;
+  cursor: pointer;
+  display: none;
+  bottom: 0;
+}
+
+#scroller_prev {
+  left: 0;
+}
+
+#scroller_next {
+  right: 0;
+}
+
+div#_LastTorrents {
+  overflow: hidden;
+  width: 100%;
+}
+.cover {
+  width: 125px;
+  height: 125px;
+  float: left;
+  margin: 2px 5px 2px 0;
+  border: 2px solid white;
+  background-size: 125px;
+}
+.cover_text {
+  width: 121px;
+  height: 60px;
+  margin-top: 61px;
+  background: black;
+  text-align: center;
+  opacity: 0.8;
+  padding: 2px;
+  line-height: 15px;
+  overflow: hidden;
+  vertical-align: middle;
+  font-size: 11px;
+}
+.index_main_column {
+  width: 75%;
+}
+
+#disclaimer_container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sticky:after {
+  content: "📌 ";
+}
+
+.thin table:last-child {
+  margin-top: 10px;
+}
+#buttonhint {
+  display: none !important;
+}
+
+#searchbar_artists {
+  position: relative;
+}
+
+#artistcomplete {
+  position: absolute;
+  top: 35px;
+  left: 3px;
+  width: 146px;
+  z-index: 99999;
+  background: rgba(0,0,0,0.7) !important;
+}
+
+#artistcomplete li {
+  display: block;
+  cursor: pointer;
+  padding: 5px;
+}
+
+#artistcomplete li.highlight {
+  background: rgba(255,255,255,0.1);
+}
+
+#stats_ratio {
+  padding-right: 0 !important;
+}
+
+#stats_required {
+  padding-left: 0 !important;
+}
+
+#css_gallery {
+  display: none;
+}
+
+#donation_message {
+  display: none !important;
+}
+
+#welcometext {
+  display: none;
+}
+
+.index_sidebar > div:nth-child(1),
+.index_sidebar2 > div:nth-child(1) {
+  margin-top: 0;
+}

@@ -1,0 +1,354 @@
+@import "./global/common.css";
+
+body {
+  color: #c2c2c2;
+  background-color: #1d1c1d;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: #f4f4f4;
+}
+
+h1 a,h2 a,h3 a,h4 a,h5 a,h6 a {
+  color: #c5b09b;
+}
+
+a {
+  color: #f4f4f4;
+}
+
+a:hover {
+  color: #eedfd1;
+}
+
+blockquote {
+  border-color: rgba(255,255,255,.25);
+  background-color: #323132;
+}
+
+::selection,
+::-moz-selection {
+  background-color: rgba(180,160,139,.6);
+}
+
+table,table .rowa:nth-child(even),table .rowb:nth-child(even) {
+  background-color: #2b2a2b;
+}
+
+table .rowa,table .rowb {
+  border-top: 2px solid #242324;
+}
+
+table .rowa:nth-child(odd),table .rowb:nth-child(odd) {
+  background-color: #323132;
+}
+
+.colhead,.colhead_dark {
+  background-color: #383738;
+}
+
+form {
+  background-color: #2b2a2b;
+}
+
+form table td.label {
+  color: #949494;
+}
+
+button,input[type=button],input[type=submit] {
+  color: #1d1c1d;
+}
+
+input[type=email],input[type=password],input[type=search],input[type=text],select,textarea {
+  color: #c2c2c2;
+  background: #242324;
+}
+
+input[type=email]:focus,input[type=password]:focus,input[type=search]:focus,input[type=text]:focus,select:focus,textarea:focus {
+  color: #f4f4f4;
+}
+
+strong.important_text {
+  color: #e74e4e;
+}
+
+strong.important_text_alt {
+  color: #4eb44e;
+}
+
+.r00,.r01,.r02,.r03 {
+  color: #e74e4e;
+}
+
+.r04,.r05,.r06,.r07,.r08,.r09 {
+  color: #e1b661;
+}
+
+.r10,.r20,.r50,.r99,.small_upvote,.vote_album_up,.vote_artist_up,.vote_tag_up {
+  color: #4eb44e;
+}
+
+.small_downvote,.vote_album_down,.vote_artist_down,.vote_tag_down {
+  color: #e74e4e;
+}
+
+.box,.box2 {
+  background-color: #2b2a2b;
+}
+
+.head {
+  background-color: #383738;
+}
+
+.autocomplete-suggestions {
+  color: #242324;
+  background-color: #f4f4f4;
+}
+
+.autocomplete-suggestions .autocomplete-suggestion.autocomplete-selected {
+  background-color: #eedfd1;
+}
+
+.autocomplete-suggestions .autocomplete-suggestion strong {
+  color: #12a1e3;
+}
+
+.forum_post.forum_unread {
+  border-top: 2px solid #eedfd1;
+}
+
+.read {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQAgMAAABinRfyAAAACVBMVEX///+UlJSUlJT2VwJEAAAAAnRSTlMAAHaTzTgAAAAtSURBVHhefYuhEQAwCMTetvv9Pl2CIfgpoSBwRORiguFKD4dMydeyqlZtrU8A6JMUKeHoG3AAAAAASUVORK5CYII=) center no-repeat;
+}
+
+.unread {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQAgMAAABinRfyAAAACVBMVEX////FsJvFsJtRjvg0AAAAAnRSTlMAAHaTzTgAAAAtSURBVHhefYuhEQAwCMTetvv9Pl2CIfgpoSBwRORiguFKD4dMydeyqlZtrU8A6JMUKeHoG3AAAAAASUVORK5CYII=) center no-repeat;
+}
+
+.read_locked {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAD1BMVEX///+UlJSUlJSUlJSUlJQwXinZAAAABHRSTlMAAFZXqn1YHwAAADxJREFUeF6VirERACAIxBxBmYCCERhAOPefyQc8KxtT5fLfHqxgQmyAFAT7Kj2LOZ0iwiXkMeGqyiH1uWz5Fw69ZPQ3OgAAAABJRU5ErkJggg==) center no-repeat;
+}
+
+.unread_locked {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAD1BMVEX////FsJvFsJvFsJvFsJsZSitiAAAABHRSTlMAAFZXqn1YHwAAADxJREFUeF6VirERACAIxBxBmYCCERhAOPefyQc8KxtT5fLfHqxgQmyAFAT7Kj2LOZ0iwiXkMeGqyiH1uWz5Fw69ZPQ3OgAAAABJRU5ErkJggg==) center no-repeat;
+}
+
+.read_sticky {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAG1BMVEWUlJT///+UlJSUlJSUlJSUlJSUlJSUlJSUlJTf0GgPAAAACHRSTlMAAFFTUl5URdDB1TQAAABISURBVHhehcahEYAwEADBY0AgE4ekDCRlUAKSEp6oKxvmJwLHqqV2lBlgeOPO4V1ZbMCbsmlkRiWDrcdzzVwxRSaAv6j6Te0es5kZ6IK/EdsAAAAASUVORK5CYII=) center no-repeat;
+}
+
+.unread_sticky {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAG1BMVEXFsJv////FsJvFsJvFsJvFsJvFsJvFsJvFsJt4MzxgAAAACHRSTlMAAFFTUl5URdDB1TQAAABISURBVHhehcahEYAwEADBY0AgE4ekDCRlUAKSEp6oKxvmJwLHqqV2lBlgeOPO4V1ZbMCbsmlkRiWDrcdzzVwxRSaAv6j6Te0es5kZ6IK/EdsAAAAASUVORK5CYII=) center no-repeat;
+}
+
+.read_locked_sticky {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAIVBMVEX///+UlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJQ8L084AAAACnRSTlMAAFZRUlNXVF5FRF9ofwAAAFxJREFUeF49zLEVgCAMBNDQWhmeNlbUdI7gGo7ACI5g5wYGu5vSkPC46r+7vNBI2FgzK3DwjZdowqeNIpyAGFbAG9at49oNjyxiEPvjqLE3OSdHrG0CpJTkaDcjPwJ6HWxMBPutAAAAAElFTkSuQmCC) center no-repeat;
+}
+
+.unread_locked_sticky {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAIVBMVEX////FsJvFsJvFsJvFsJvFsJvFsJvFsJvFsJvFsJvFsJtBGALRAAAACnRSTlMAAFZRUlNXVF5FRF9ofwAAAFxJREFUeF49zLEVgCAMBNDQWhmeNlbUdI7gGo7ACI5g5wYGu5vSkPC46r+7vNBI2FgzK3DwjZdowqeNIpyAGFbAG9at49oNjyxiEPvjqLE3OSdHrG0CpJTkaDcjPwJ6HWxMBPutAAAAAElFTkSuQmCC) center no-repeat;
+}
+
+#menu>ul a:hover,#submenu:hover a:hover,#userinfo_username:hover a:hover {
+  color: #1d1c1d;
+  background-color: #eedfd1;
+}
+
+#nav_staff>a:hover,
+#nav_donate>a:hover {
+  color: #eedfd1 !important;
+}
+
+#submenu:hover:before {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJBAMAAAASvxsjAAAAJFBMVEX///8dHB0dHB0dHB0dHB0dHB0dHB0dHB0dHB0dHB0dHB0dHB3a8ywaAAAAC3RSTlMAAM4w9yfy60DuPHMi9qAAAAAwSURBVHheZcoxDQAgEATBPRIE0GHjk3dFjRlkELozR02YevgVe0MdnqA8AeqrPeUCljkFqZ1/K1IAAAAASUVORK5CYII=) 21px 20px no-repeat;
+}
+
+#searchbars>ul {
+  background-color: #383738;
+}
+
+#searchbars>ul input {
+  background-color: #2b2a2b;
+}
+
+#menu li:nth-child(1) {
+  background-color: #8e6354;
+}
+
+#menu li:nth-child(2) {
+  background-color: #8a6152;
+}
+
+#menu li:nth-child(3) {
+  background-color: #845c4f;
+}
+
+#menu li:nth-child(4) {
+  background-color: #7f574c;
+}
+
+#menu li:nth-child(5) {
+  background-color: #785248;
+}
+
+#menu li:nth-child(6) {
+  background-color: #734d45;
+}
+
+#menu li:nth-child(8) {
+  background-color: #6d4942;
+}
+
+#menu li:nth-child(9) {
+  background-color: #6a4640;
+}
+
+#userinfo_username {
+  background-color: #66433e;
+}
+
+#submenu {
+  background-color: #63403c;
+}
+
+.linkbox>strong {
+  color: #c5b09b;
+}
+
+#noty_bottomRight_layout_container>li {
+  border: 2px solid #f4f4f4!important;
+}
+
+#noty_bottomRight_layout_container .noty_message {
+  color: #1d1c1d!important;
+  background-color: #f4f4f4!important;
+}
+
+#noty_bottomRight_layout_container .noty_buttons {
+  background-color: #2b2a2b!important;
+}
+
+#noty_bottomRight_layout_container .noty_buttons a {
+  color: #f4f4f4!important;
+}
+
+#noty_bottomRight_layout_container .noty_buttons a:hover {
+  color: #eedfd1!important;
+}
+
+.torrent_table {
+  background-color: #242324;
+}
+
+.torrent_table tr:not(.colhead):not(.colhead_dark) {
+  border-top: 2px solid #242324;
+}
+
+.torrent_table .group {
+  background-color: #383738;
+}
+
+.group_torrent {
+  background-color: #2b2a2b;
+}
+
+.group_torrent.edition,.torrent {
+  background-color: #323132;
+}
+
+.tags a {
+  color: #949494;
+}
+
+.tags a:hover {
+  color: #eedfd1;
+}
+
+.group_info>span:first-child,.group_torrent td:first-child>span,.torrent_links_block {
+  color: #949494;
+}
+
+.cats_applications,.cats_audiobooks,.cats_comedy,.cats_comics,.cats_ebooks,.cats_elearningvideos {
+  border-right: 2px solid #1d1c1d;
+}
+
+.tooltipster-default {
+  border: 0 solid #c5b09b;
+  background-color: #f4f4f4;
+}
+
+.tooltipster-default .tooltipster-content {
+  color: #1d1c1d;
+}
+
+.tooltipster-default .tooltipster-content a {
+  color: #1d1c1d;
+}
+
+.alertbar,.tooltipster-default .tooltipster-content a:hover {
+  color: #c5b09b;
+}
+
+#userform #settings_sections h2 a,.rule_short {
+  color: #f4f4f4;
+}
+
+.poll .graph {
+  background-color: rgba(197,176,155,.1);
+}
+
+.poll .graph span {
+  background-color: #c5b09b;
+}
+
+#footer {
+  color: #949494;
+}
+
+#discog_table>div.box.center {
+  background-color: #383738;
+}
+
+#musicbrainz_popup {
+  color: #1d1c1d;
+}
+
+#musicbrainz_popup a {
+  color: #1d1c1d;
+}
+
+#musicbrainz_popup a:hover {
+  color: #c5b09b;
+}
+
+#userform #settings_sections h2 a:hover {
+  color: #eedfd1;
+}
+
+#dnulist tr:not(.colhead):not(.colhead_dark):nth-child(even) {
+  background-color: #2b2a2b;
+}
+
+#dnulist tr:not(.colhead):not(.colhead_dark):nth-child(odd) {
+  background-color: #323132;
+}
+
+.box table:not(.layout),.box2 table:not(.layout) {
+  border: 2px solid #242324;
+}
+
+span[style*='color: green'] {
+  color: #4eb44e!important;
+}
+
+span[style*='color: red'] {
+  color: #e74e4e!important;
+}
+
+span[style*='color: blue'] {
+  color: #4e4ee7!important;
+}
+
+#searchbars .search_form input:focus {
+  background: #242324;
+}
