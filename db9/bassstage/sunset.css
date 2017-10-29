@@ -355,11 +355,13 @@ span[style*='color: blue'] {
   background-color: #7d809e;
 }
 
-#userinfo_username:hover {
+#userinfo_username:hover,
+#welcomeusername:hover + #userinfo_username {
   background-color: #89849d;
 }
 
-#submenu:hover a,#userinfo_username:hover a {
+#submenu:hover a,#userinfo_username:hover a,
+#welcomeusername:hover + #userinfo_username a {
   color: #f4f4f4;
 }
 
