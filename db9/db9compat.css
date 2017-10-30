@@ -227,3 +227,7 @@ div#_LastTorrents {
 .bbcodes input {
   margin: 3px;
 }
+
+#welcomeusername a:not(:first-child) {
+  display: none;
+}
