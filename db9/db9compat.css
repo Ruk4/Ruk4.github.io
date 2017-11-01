@@ -195,11 +195,11 @@ div#_LastTorrents {
   margin-bottom: 10px;
 }
 
-.group_torrent td > span:before {
+.group_torrent td > span:not(.time):before {
   content: '[ ';
 }
 
-.group_torrent td > span:after {
+.group_torrent td > span:not(.time):after {
   content: ' ]';
 }
 
@@ -230,4 +230,8 @@ div#_LastTorrents {
 
 #welcomeusername a:not(:first-child) {
   display: none;
+}
+
+a.last_read:before {
+  content: '➜';
 }

@@ -148,7 +148,8 @@ strong.important_text_alt {
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAIVBMVEX////FsJvFsJvFsJvFsJvFsJvFsJvFsJvFsJvFsJvFsJtBGALRAAAACnRSTlMAAFZRUlNXVF5FRF9ofwAAAFxJREFUeF49zLEVgCAMBNDQWhmeNlbUdI7gGo7ACI5g5wYGu5vSkPC46r+7vNBI2FgzK3DwjZdowqeNIpyAGFbAG9at49oNjyxiEPvjqLE3OSdHrG0CpJTkaDcjPwJ6HWxMBPutAAAAAElFTkSuQmCC) center no-repeat;
 }
 
-#menu>ul a:hover,#submenu:hover a:hover,#userinfo_username:hover a:hover {
+#menu>ul a:hover,#submenu:hover a:hover,#userinfo_username:hover a:hover,
+#userinfo_username:hover a:hover + a {
   color: #1d1c1d;
   background-color: #eedfd1;
 }

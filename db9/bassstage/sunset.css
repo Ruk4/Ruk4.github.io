@@ -361,7 +361,8 @@ span[style*='color: blue'] {
 }
 
 #submenu:hover a,#userinfo_username:hover a,
-#welcomeusername:hover + #userinfo_username a {
+#welcomeusername:hover + #userinfo_username a,
+#welcomeusername a:hover {
   color: #f4f4f4;
 }
 

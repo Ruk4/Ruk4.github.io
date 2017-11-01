@@ -324,15 +324,6 @@ table.box,table.box2 {
   width: 24px!important;
 }
 
-.last_read {
-  margin-left: 8px;
-}
-
-.last_read a:before {
-  content: '➜';
-  display: inline-block;
-}
-
 #submenu:before,.linkbox br,
 #userinfo_username:before {
   content: '';
@@ -342,7 +333,9 @@ table.box,table.box2 {
   position: relative;
 }
 
-#header ul {
+#header ul,
+.index_sidebar ul,
+.index_sidebar2 ul {
   margin: 0;
   padding: 0;
 }
@@ -1204,10 +1197,22 @@ ul.collage_images li a>span {
 }
 
 .signature:before {
-  margin-top: 10px;
-  border-top: 1px solid rgba(0,0,0,0.4);
+  margin-top: 30px;
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
   display: block;
-  width: 50%;
+  width: 100%;
   content: '';
   box-shadow: 1px 1px 8px rgba(0,0,0,0.5);
+}
+
+#nav_invite {
+  position: relative;
+}
+
+#invite_count {
+  position: absolute;
+  pointer-events: none;
+  background: none !important;
+  top: 0;
+  text-align: right;
 }
