@@ -235,3 +235,12 @@ div#_LastTorrents {
 a.last_read:before {
   content: '➜';
 }
+
+a[href*="23266"]:before {
+  content: "buttldrEDM";
+  font-size: 0.75rem;
+}
+
+a[href*="23266"] {
+  font-size: 0;
+}
